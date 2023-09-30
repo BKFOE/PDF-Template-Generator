@@ -1,3 +1,3 @@
 # What is this project?
-This is a web app that allows you to generate PDF documents
+A script that generates PDF templates of multiple pages given some predefined guidelines.
 ### Web development
