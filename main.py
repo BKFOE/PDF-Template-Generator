@@ -28,6 +28,7 @@ for index, row in df.iterrows():
     pdf.set_text_color(180, 180, 180)
     pdf.cell(w=0, h=10, txt=row["Topic"], align="R")
 
+    # Add the number of pages per item
     for i in range(row["Pages"] - 1):
         pdf.add_page()
 
